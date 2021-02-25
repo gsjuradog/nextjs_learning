@@ -1,0 +1,19 @@
+.logo {
+  background-color: #2b2727;
+  position: relative;
+  z-index: -1;
+}
+.myName {
+  display: flex;
+  align-items: center;
+  color:white;
+}
+.container {
+  min-height: 100vh;
+  width: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
