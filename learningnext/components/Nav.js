@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Nav.module.css';
 
@@ -5,7 +6,10 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <h1>GSJuradoG</h1>
+       
+          <Image src='/../public/LogoBlackCircle.svg' width={60} height={60} alt='Gabriel Jurado Logo'></Image>
+     
+        {/* <h2>GSJuradoG</h2> */}
       </div>
       <ul>
         <li>
@@ -15,7 +19,7 @@ export default function Nav() {
           <Link href='/about'>About</Link>
         </li>
         <li>
-          <Link href='/b'>Projects</Link>
+          <Link href='/projects'>Projects</Link>
         </li>
       </ul>
     </nav>
