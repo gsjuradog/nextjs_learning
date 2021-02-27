@@ -1,7 +1,8 @@
 .nav {
   height: 50px;
+  width: 100%;
   padding:10px;
-  background-color: #f35d6d;
+  background-color: #fdac40;
   color: #fff;
   display:flex;
   align-items: center;
