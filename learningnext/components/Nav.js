@@ -15,7 +15,7 @@ export default function Nav() {
           <Link href='/about'>About</Link>
         </li>
         <li>
-          <Link href='/projects'>Projects</Link>
+          <Link href='/b'>Projects</Link>
         </li>
       </ul>
     </nav>

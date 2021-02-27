@@ -1,4 +1,6 @@
+import Link from 'next/link';
 export default function about() {
+
   return (
     <div>
       <header>
@@ -8,6 +10,8 @@ export default function about() {
         <h2>Titulo</h2>
         <p>Lorem ipsum stuff jajajaja</p>
         <p>Lorem Ipsum es algo raro</p>
+
+        
       </article>
     </div>
   )
